@@ -26,7 +26,7 @@ function Landing({ setSelectedNav }: LandingProps) {
             </div>
           </div>
         ) : (
-          <div className=" relative z-0 ml-20 before:absolute before:-top-10 before:-left-50 before:rounded-t-[400px] before:w-[100%] before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-purple-950 before:bg-gradient-purplehue  before:z-[-1]">
+          <div className="flex justify-center relative z-10 mx-5 before:absolute before:-top-10 before:-left-50 before:rounded-t-[400px] before:w-[100%] before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-purple-950 before:bg-gradient-purplehue  before:z-[-1]">
             <img
               alt="profile"
               className="z-10 w-full max-w-[400px] md:max-w-[600px]"
@@ -71,8 +71,7 @@ function Landing({ setSelectedNav }: LandingProps) {
           }}
         >
           <AnchorLink
-            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500"
+            className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold hover:bg-blue hover:text-white transition duration-500"
             onClick={() => setSelectedNav("contact")}
             href="#contact"
           >
