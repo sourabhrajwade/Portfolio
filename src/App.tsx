@@ -45,7 +45,7 @@ function App() {
           viewport={{ once: true, amount: "all" }}
           onViewportEnter={() => setSelectedNav("skills")}
         >
-          <ExperienceComponent />
+          {/* <ExperienceComponent /> */}
         </motion.div>
       </div>
     </div>
